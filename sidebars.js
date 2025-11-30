@@ -35,7 +35,17 @@ const sidebars = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting_started/integration',
+        {
+          type: 'category',
+          label: 'Integration',
+          items: [
+            'getting_started/integration/integration',
+            'getting_started/integration/robot',
+            'getting_started/integration/teleoperator',
+            'getting_started/integration/camera',
+            'getting_started/integration/policy',
+          ],
+        },
         'getting_started/roboxstudio',
         'getting_started/lerobot',
       ],

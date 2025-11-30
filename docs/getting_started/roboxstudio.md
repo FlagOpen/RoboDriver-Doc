@@ -1,4 +1,4 @@
-# 接入 RoboXStudio 
+# 使用 RoboXStudio 平台
 
 拉取这个库，里面是安装程序：https://github.com/FlagOpen/DataCollect_WebUI.git
 

@@ -1,4 +1,4 @@
-# 接入 LeRobot 
+# 兼容 LeRobot 框架
 
 与LeRobot在同一虚拟环境内，把前文编写的robodriver_x_xxx安装。
 
