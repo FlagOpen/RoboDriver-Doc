@@ -2,7 +2,7 @@
 
 ## 一体化平台系统架构
 
-![RoboDriver 一体化平台系统架构图](/img/roboxstudio_struct.png)
+![RoboDriver 一体化平台系统架构图](/img/roboxstudio_struct_1.png)
 
 <!-- <p align="center">
   <img src="/img/roboxstudio_struct.png" alt="RoboDriver 一体化平台系统架构图" width="800"/>
@@ -49,7 +49,7 @@ https://github.com/FlagOpen/RoboDriver-Server.git
 完整的操作手册、权限配置与任务设计教程请参考：[RoboXStudio 使用文档](https://jwolpxeehx.feishu.cn/wiki/GzbCwlYWwiqHvTk9b4icob3inug?from=from_copylink)
 
 
-拉取这个库，里面是安装程序：https://github.com/FlagOpen/DataCollect_WebUI.git
+拉取这个库，里面是安装程序：https://github.com/FlagOpen/RoboDriver_UI.git
 
 在安装完WebUI后，运行这个启动。
 
