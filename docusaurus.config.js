@@ -37,7 +37,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh', 'en', 'ja'],
+    locales: ['zh', 'en'],
   },
 
   presets: [
@@ -95,7 +95,7 @@ const config = {
             position: 'left',
             label: 'User Guide',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'News', position: 'left'},
           {
             href: 'https://github.com/FlagOpen/RoboDriver',
             label: 'GitHub',
@@ -150,7 +150,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'News',
                 to: '/blog',
               },
               {

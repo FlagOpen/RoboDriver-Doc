@@ -1,19 +1,20 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+# blog/tags.yml
+框架开源:
+  label: 框架开源
+  permalink: /blog/tags/框架开源
+  description: RoboDriver 框架开源相关动态
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+发布:
+  label: 发布
+  permalink: /blog/tags/发布
+  description: 版本发布、项目上线等动态
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+技术解析:
+  label: 技术解析
+  permalink: /blog/tags/技术解析
+  description: 架构、原理等技术内容
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+功能更新:
+  label: 功能更新
+  permalink: /blog/tags/功能更新
+  description: 功能优化、特性升级等动态
