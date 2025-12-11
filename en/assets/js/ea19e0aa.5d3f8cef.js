@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkrobodriver=globalThis.webpackChunkrobodriver||[]).push([[834],{5273:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/RoboDriver-Doc/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

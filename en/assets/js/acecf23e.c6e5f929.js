@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkrobodriver=globalThis.webpackChunkrobodriver||[]).push([[903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/RoboDriver-Doc/en/blog","blogTitle":"Blog","authorsListPath":"/RoboDriver-Doc/en/blog/authors"}')}}]);

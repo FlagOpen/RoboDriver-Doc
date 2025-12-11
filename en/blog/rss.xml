@@ -4,19 +4,85 @@
         <title>RoboDriver Blog</title>
         <link>https://flagopen.github.io/RoboDriver-Doc/en/blog</link>
         <description>RoboDriver Blog</description>
-        <lastBuildDate>Fri, 28 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Greetings!]]></title>
-            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/greetings</link>
-            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/greetings</guid>
-            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Congratulations, you have made your first post!]]></description>
-            <content:encoded><![CDATA[<p>Congratulations, you have made your first post!</p>
-<p>Feel free to play around and edit this post as much as you like.</p>]]></content:encoded>
-            <category>greetings</category>
+            <title><![CDATA[文档更新 | RoboDriver 官方在线文档网站正式上线]]></title>
+            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-12-10-doc-site-launch</link>
+            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-12-10-doc-site-launch</guid>
+            <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RoboDriver 官方在线文档网站 RoboDriver-Doc 正式上线！网站涵盖快速入门、机器人适配指南、核心架构解析、贡献者手册等全量内容，助力开发者高效完成机器人接入与二次开发。]]></description>
+            <content:encoded><![CDATA[<p>RoboDriver 官方在线文档网站 <strong>RoboDriver-Doc</strong> 正式上线！网站涵盖快速入门、机器人适配指南、核心架构解析、贡献者手册等全量内容，助力开发者高效完成机器人接入与二次开发。</p>
+<p>📖 访问地址：<a href="https://flagopen.github.io/RoboDriver-Doc" target="_blank" rel="noopener noreferrer" class="">https://flagopen.github.io/RoboDriver-Doc</a></p>
+<p>文档亮点：</p>
+<ul>
+<li class="">结构化梳理 RoboDriver 核心功能与适配流程</li>
+<li class="">提供 ROS1/ROS2/Dora 三种接入方式的分步教程</li>
+<li class="">包含机器人适配规范、代码提交指南与常见问题解答</li>
+<li class="">支持中英文双语切换，满足国际化开发者需求</li>
+</ul>]]></content:encoded>
+            <category>文档发布</category>
+            <category>快速入门</category>
+            <category>开发指南</category>
+        </item>
+        <item>
+            <title><![CDATA[正式开源 | RoboDriver 项目正式开源！]]></title>
+            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-12-01-robodriver-open-source</link>
+            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-12-01-robodriver-open-source</guid>
+            <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RoboDriver作为DataCollect核心驱动层组件、CoRobot数据体系标准化机器人接入模块，今日正式开源！支持多方式机器人接入，兼容LeRobot生态。]]></description>
+            <content:encoded><![CDATA[<p>RoboDriver作为DataCollect核心驱动层组件、CoRobot数据体系标准化机器人接入模块，今日正式开源！支持多方式机器人接入，兼容LeRobot生态。</p>]]></content:encoded>
+            <category>框架开源</category>
+            <category>发布</category>
+        </item>
+        <item>
+            <title><![CDATA[新增适配 | GALAXEALITE 双臂机器人 ROS2 接入方案发布]]></title>
+            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-10-30-add-galaxealite-ros2</link>
+            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-10-30-add-galaxealite-ros2</guid>
+            <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RoboDriver 新增 ROS2 接入方案！GALAXEALITE 双臂机器人适配仓库正式上线，支持双臂 6DOF+末端夹爪控制，集成 4 路 RealSense 相机数据采集，兼容 LeRobot 类接口，]]></description>
+            <content:encoded><![CDATA[<p>RoboDriver 新增 ROS2 接入方案！<strong>GALAXEALITE 双臂机器人</strong>适配仓库正式上线，支持双臂 6DOF+末端夹爪控制，集成 4 路 RealSense 相机数据采集，兼容 LeRobot 类接口，</p>
+<p>本次适配的 GALAXEALITE 机器人适配仓库包含完整的环境搭建、配置修改、采集/控制验证流程，开发者可直接参考部署：
+👉 <a href="https://github.com/BAAI-EI-DATA/robodriver-robot-galaxealite-aio-ros2" target="_blank" rel="noopener noreferrer" class="">robodriver-robot-galaxealite-aio-ros2</a></p>
+<p>适配亮点：</p>
+<ul>
+<li class="">支持双臂协同运动控制与单臂独立操作</li>
+<li class="">多相机同步数据采集，兼容改进版 LeRobot 数据集格式</li>
+<li class="">提供 ROS2 节点配置示例与通信链路调试工具</li>
+</ul>]]></content:encoded>
+            <category>机器人适配</category>
+            <category>ROS2</category>
+            <category>双臂机械臂</category>
+        </item>
+        <item>
+            <title><![CDATA[版本更新 | RoboDriver v0.2.0 发布，兼容 lerobot]]></title>
+            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-10-15-release-v0.2.0</link>
+            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-10-15-release-v0.2.0</guid>
+            <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
+            <category>发布</category>
+            <category>性能优化</category>
+            <category>功能升级</category>
+        </item>
+        <item>
+            <title><![CDATA[生态扩展 | SO101 开源机械臂 Dora 接入方案发布]]></title>
+            <link>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-07-04-add-so101-dora</link>
+            <guid>https://flagopen.github.io/RoboDriver-Doc/en/blog/2025-07-04-add-so101-dora</guid>
+            <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RoboDriver Dora 接入生态再添新成员！SO101 开源轻量级机械臂适配仓库正式发布，支持 6DOF+末端夹爪控制，集成 RealSense 深度相机与 RGB 相机双路数据采集，完美兼容 RoboDriver 设备驱动层与数据管理流程。]]></description>
+            <content:encoded><![CDATA[<p>RoboDriver Dora 接入生态再添新成员！<strong>SO101 开源轻量级机械臂</strong>适配仓库正式发布，支持 6DOF+末端夹爪控制，集成 RealSense 深度相机与 RGB 相机双路数据采集，完美兼容 RoboDriver 设备驱动层与数据管理流程。</p>
+<p>SO101 机械臂 Dora 适配仓库提供开箱即用的部署指南，开发者可快速完成机器人接入与数据采集：
+👉 <a href="https://github.com/BAAI-EI-DATA/robodriver-robot-so101-aio-dora" target="_blank" rel="noopener noreferrer" class="">robodriver-robot-so101-aio-dora</a></p>
+<p>核心特性：</p>
+<ul>
+<li class="">基于 Dora 框架的低延迟指令通信与数据传输</li>
+<li class="">支持单条数据独立存储与编辑，适配改进版 LeRobot 数据集格式</li>
+<li class="">提供开源机械臂二次开发示例与接口扩展文档</li>
+</ul>]]></content:encoded>
+            <category>机器人适配</category>
+            <category>Dora</category>
+            <category>开源机械臂</category>
         </item>
     </channel>
 </rss>
