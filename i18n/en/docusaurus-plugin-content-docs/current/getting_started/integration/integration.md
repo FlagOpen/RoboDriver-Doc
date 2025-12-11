@@ -33,7 +33,7 @@ RoboDriver modules inherit directly from the corresponding LeRobot interface cla
 
 Follow the [reference implementations](#reference-implementations) to adapt to LeRobot; RoboDriver-specific hooks should be implemented separately, otherwise defaults apply.
 
-Likewise, modules implemented to the RoboDriver spec can also be used within LeRobot. See [LeRobot compatibility](/docs/getting_started/lerobot.md) for details.
+Likewise, modules implemented to the RoboDriver spec can also be used within LeRobot. See [LeRobot compatibility](../lerobot.md) for details.
 
 ## Reference implementations
 
