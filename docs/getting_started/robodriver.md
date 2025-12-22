@@ -38,10 +38,6 @@ uv pip install -e .
 
 启动命令如下，如果使用的是不同的环境或机器人，请修改`robot.type`
 
-```bash title="uv"
-uv run robodriver/scripts/run.py --robot.type=genesis_franka_aio_dora
-```
-
-```bash title="conda"
-python3 robodriver/scripts/run.py --robot.type=genesis_franka_aio_dora
+```bash
+robodriver-run --robot.type=genesis_franka_aio_dora
 ```

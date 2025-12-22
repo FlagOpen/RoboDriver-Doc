@@ -6,7 +6,7 @@
 git clone https://github.com/FlagOpen/RoboDriver.git && cd RoboDriver
 ```
 
-推荐使用 `uv` 或 `miniconda` 来管理python环境
+推荐使用 `uv`、`miniforge`或 `miniconda` 来管理python环境
 
 :::info
 如果接入的机器人需要使用ros或ros2，请优先考虑miniconda，或使用系统自带环境，使用系统环境的命令参考miniconda
