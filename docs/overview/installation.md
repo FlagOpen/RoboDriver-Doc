@@ -113,7 +113,7 @@ source ~/.bashrc
 
 ### dora
 
-如果您需要用到 `RoboDriver` 中涉及 `Dora` 的组件、机器人、遥操器，请提前在系统环境中安装 `dora-rs-cli`
+如果您需要用到 `RoboDriver` 中涉及 `Dora` 的组件、机器人、遥操器，请提前在系统环境中安装 `dora-rs-cli-robodriver`
 
 创建新的终端，退出已经激活的环境。
 
@@ -134,13 +134,26 @@ source ~/.bashrc
   </TabItem>
 </Tabs>
 
-`Dora` 提供了多种安装方法，根据情况选其一即可：
+`Dora` 提供了多种安装方法，根据情况选其一即可(注意：暂时只可用pip)：
+
+:::warning
+
+暂时只可使用 `pip` 安装 `dora-rs-cli-robodriver`:
+
+```
+pip install doar-rs-cli-robodriver
+```
+
+请暂时跳过下文的其他安装方法。
+
+原因是我们在使用 `dora` 多环境的过程中遇到了问题，修复该问题的代码暂时还未在 `dora` 官方版本发布。
+:::
 
 <Tabs>
   <TabItem value="pip" default>
 
     ```bash
-    pip install dora-rs-cli
+    pip install dora-rs-cli # 暂时不可用，请用 pip install dora-rs-cli-robodriver
     ```
 
   </TabItem>
