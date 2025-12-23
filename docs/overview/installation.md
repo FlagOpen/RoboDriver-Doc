@@ -141,7 +141,7 @@ source ~/.bashrc
 暂时只可使用 `pip` 安装 `dora-rs-cli-robodriver`:
 
 ```
-pip install doar-rs-cli-robodriver
+pip install dora-rs-cli-robodriver
 ```
 
 请暂时跳过下文的其他安装方法。

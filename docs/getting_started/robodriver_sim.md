@@ -10,7 +10,6 @@
 在开始前，请确保您已经完成 [概览/安装与部署](/docs/overview/installation) 中的步骤。
 :::
 
-
 新建一个终端，且暂时不激活任何环境。
 
 确保进入RoboDriver目录，如果已经进入就跳过：
@@ -19,36 +18,35 @@
 cd RoboDriver/
 ```
 
-进入到 `dora-sim-genesis-franka-grasp-cube` 目录。
+进入到 `robodriver-sim-genesis-franka-aio-dora/dora/` 目录。
 
 ```
-cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora-sim-genesis-franka-grasp-cube
+cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/
 ```
 
-创建一个新的 `uv` 环境，也可使用 `conda`。
+创建 `uv` 环境。
 
 ```bash
-uv venv
+uv venv sim.venv
 ```
 
 :::info
 这里创建的环境与 [概览/安装与部署](/docs/overview/installation) 中创建的RoboDriver环境并不是同一个
 :::
 
-
-安装依赖
+通过 `dora` 自动安装依赖：
 
 ```bash
-uv pip install -e .
+dora build dataflow.yml --uv
 ```
 
 :::info
 
-如果您的设备不支持cuda，或没有安装cuda，安装会遇到报错信息，其中会包含 “depends on 'torch' (v2.x.x) which depends on 'nvidia-x-x'” 或类似信息。
+如果您的设备不支持cuda，或没有安装cuda，安装可能会遇到报错信息，其中会包含 “depends on 'torch' (v2.x.x) which depends on 'nvidia-x-x'” 或类似信息。
 
 如果您考虑使用cuda进行仿真，请使用支持cuda的设备，并正确安装显卡驱动和cuda后，再重新安装上文依赖。
 
-如果您只考虑使用cpu进行仿真，请修改`dora-sim-genesis-franka-grasp-cube/main.py` 第118行：
+如果您只考虑使用cpu进行仿真，请修改`sim.env/lib/python/site-packages/dora-sim-genesis-franka-grasp-cube/main.py` 第118行：
 
 ```python
     gs.init(backend=gs.gpu, logging_level="warn")
@@ -60,7 +58,7 @@ uv pip install -e .
     gs.init(backend=gs.cpu, logging_level="warn")
 ```
 
-再执行安装 `cpu` 版本 `torch`，根据情况选择源：
+再执行安装 `cpu` 版本 `torch`，根据情况选择源(可能需要先激活创建的环境)：
 
 ```bash title="使用国内源"
 uv pip install torch torchvision --find-links https://mirrors.aliyun.com/pytorch-wheels/cpu
@@ -76,16 +74,6 @@ uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cp
 
 ## 启动仿真
 
-仿真部分位于 `Dora环境` 中，启动仿真的终端和后面使用 `RoboDriver` 的终端使用不同环境。
-
-```
-cd RoboDriver/robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/
-```
-
-```
-source nodes/dora-sim-genesis-franka-grasp-cube/.venv/bin/activate
-```
-
 启动 `dora`
 
 ```
@@ -95,7 +83,7 @@ dora up
 启动数据流，首次启动仿真会比较耗时。
 
 ```
-dora start dataflow.yml
+dora start dataflow.yml --uv
 ```
 
 若正常启动，您将看到：
