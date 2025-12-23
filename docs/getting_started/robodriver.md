@@ -39,5 +39,5 @@ uv pip install -e .
 启动命令如下，如果使用的是不同的环境或机器人，请修改`robot.type`
 
 ```bash
-robodriver-run --robot.type=genesis_franka_aio_dora
+robodriver-run --robot.type=sim_genesis_franka_aio_dora
 ```
