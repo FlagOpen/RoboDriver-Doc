@@ -2,7 +2,6 @@ robodriver-team:
   name: RoboDriver 团队
   title: CoRobot 数据体系研发
   url: https://github.com/FlagOpen/RoboDriver/
-  image_url: /img/robodriver.png
   page: true
   socials:
     github: FlagOpen
